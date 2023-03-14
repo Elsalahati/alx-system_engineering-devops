@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -print "%t" -ls
+ls -1t | tail -10
